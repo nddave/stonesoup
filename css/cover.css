@@ -19,11 +19,6 @@ a:hover {
   border: 1px solid #fff;
 }
 
-.btn-group-lg>.btn, .btn-lg {
-
-  border-radius: 50px;
-}
-
 
 /*
  * Base structure
@@ -167,3 +162,13 @@ body {
     width: 700px;
   }
 }
+
+/*Custom CSS Start*/
+.btn-group-lg>.btn, .btn-lg {
+
+  border-radius: 3px;
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+}
+
+/*Custom CSS End*/
